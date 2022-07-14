@@ -36,7 +36,7 @@ $querygetContacts = mysqli_query($conection, "SELECT * FROM `contactos` ");
 
 	<!-- Document Title
 	============================================= -->
-	<title>Movers Demo | Canvas</title>
+	<title>Contactos - prueba BRM</title>
 
 </head>
 
@@ -61,8 +61,8 @@ $querygetContacts = mysqli_query($conection, "SELECT * FROM `contactos` ");
 
 			<div class="container mt-4" style="z-index: 2">
 				<div class="center">
-					<h2 class="text-white h2 fw-semibold mb-2">Welcome to the Canvas Packers and Movers.</h2>
-					<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aperiam.</p>
+					<h2 class="text-white h2 fw-semibold mb-2">Bievenido a tu agenda de contactos.</h2>
+					<p class="text-white-50">Aca puedes ver la lista de tus contactos, eliminar o crear.</p>
 				</div>
 
 				<div class="row topmargin justify-content-center">
@@ -78,7 +78,7 @@ $querygetContacts = mysqli_query($conection, "SELECT * FROM `contactos` ");
 						</ul>
 						<div class="tab-content rounded-bottom shadow bg-white py-4 px-5">
 							<div class="tab-pane fade show active" id="contacts" role="tabpanel" aria-labelledby="contacts-tab">
-								<p class="mb-4">Shift to your new Home, So we're here. Please send us your Deatils &amp; our team will contact your email asap.</p>
+								<p class="mb-4">Aca puedes ver tus contactos y buscarlos por nombre, telefono o correo.</p>
 								<div class="form-widget">
 									<div class="form-result"></div>
 									<!-- Container -->
@@ -147,7 +147,7 @@ $querygetContacts = mysqli_query($conection, "SELECT * FROM `contactos` ");
 								</div>
 							</div>
 							<div class="tab-pane fade" id="add-contact" role="tabpanel" aria-labelledby="add-contact-tab">
-								<p class="mb-4">Share your Office Shifting details by Filling out an Easy Form. Get Free Quotes from Verified Packers &amp; Movers Instantly.</p>
+								<p class="mb-4">Acá puedes crear un nuevo contacto para tu agenda</p>
 								<div class="form-widget">
 									<div class="form-result"></div>
 									<form id="formAddContact" class="row office-moving-form position-relative mb-0" action="" method="post" enctype="multipart/form-data">
