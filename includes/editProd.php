@@ -51,7 +51,7 @@ $querygetContacts = mysqli_query($conection, "SELECT * FROM `contactos` WHERE id
 
 	<!-- Document Title
 	============================================= -->
-	<title>Movers Demo | Canvas</title>
+	<title>Contactos - prueba BRM</title>
 
 </head>
 
